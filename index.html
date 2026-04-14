@@ -280,6 +280,16 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
     }
+    .pillar.wide {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0 20px;
+      align-items: start;
+    }
+    .pillar.wide .pillar-icon { grid-row: 1 / 4; font-size: 36px; padding-top: 4px; }
+    .pillar.wide h3 { margin-bottom: 6px; }
+    .pillar.wide .pillar-tags { margin-top: 10px; }
     .pillar {
       padding: 28px;
       background: var(--surface2);
@@ -778,6 +788,19 @@
           <span class="pt">Process Design</span>
         </div>
       </div>
+
+      <div class="pillar wide reveal">
+        <div class="pillar-icon">🎓</div>
+        <h3>Đào tạo AI Automation</h3>
+        <p>Thiết kế và triển khai chương trình đào tạo thực chiến về AI Automation — từ tư duy hệ thống đến xây dựng workflow n8n, tích hợp AI model, và deploy lên production. Học viên thực hành trực tiếp trên các bài toán thực tế của doanh nghiệp.</p>
+        <div class="pillar-tags">
+          <span class="pt">Curriculum Design</span>
+          <span class="pt">n8n Hands-on</span>
+          <span class="pt">AI Tools Training</span>
+          <span class="pt">Doanh nghiệp thực chiến</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -929,6 +952,20 @@
         </div>
         <div class="pc-stack">
           <span class="st">n8n</span><span class="st">TikTok API</span><span class="st">Lark</span><span class="st">Gemini AI</span><span class="st">Auto Report</span>
+        </div>
+      </div>
+
+      <div class="pc">
+        <div class="pc-head">
+          <div class="pc-ico">🎓</div>
+          <span class="pc-type">Đào tạo</span>
+        </div>
+        <div class="pc-name">Chương trình Đào tạo AI Automation</div>
+        <div class="pc-desc">
+          Xây dựng và triển khai lớp đào tạo thực chiến về AI Automation cho doanh nghiệp — học viên thực hành trực tiếp xây dựng workflow n8n, tích hợp AI model, deploy hệ thống lên production để giải quyết bài toán thực tế.
+        </div>
+        <div class="pc-stack">
+          <span class="st">n8n</span><span class="st">Gemini AI</span><span class="st">Curriculum Design</span><span class="st">Hands-on Lab</span>
         </div>
       </div>
 
