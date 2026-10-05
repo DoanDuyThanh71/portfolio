@@ -914,47 +914,41 @@
       <div class="pc">
         <div class="pc-head">
           <div class="pc-ico">🎬</div>
-          <span class="pc-type">AI Content</span>
+          <span class="pc-type">AI Video</span>
         </div>
-        <div class="pc-name">Hệ thống Tạo Video TikTok Hàng loạt</div>
-        <div class="pc-metrics">
-          <span class="pm">~200 video/ngày</span>
-          <span class="pm pm-green">↓ 99% thời gian sản xuất</span>
-        </div>
-        <div class="pc-result-bar">
-          <div class="pr-item"><span class="pr-num">3.5M</span><span class="pr-label">lượt xem (2 tháng)</span></div>
-          <div class="pr-item"><span class="pr-num">70K</span><span class="pr-label">lượt thích</span></div>
-          <div class="pr-item"><span class="pr-num">16K</span><span class="pr-label">follower</span></div>
-        </div>
-        <div class="pc-desc">
-          Pipeline hoàn chỉnh không cần nhân sự: AI viết kịch bản → sinh ảnh thumbnail → lồng tiếng tự động → nhúng phụ đề SRT → tự đăng lên TikTok theo lịch. Kênh vận hành 24/7 từ ngày đầu tiên.
-        </div>
-        <div class="pc-stack">
-          <span class="st">n8n</span><span class="st">Gemini AI</span><span class="st">TikTok API</span><span class="st">Vbee TTS</span><span class="st">Google Sheets</span>
-        </div>
-      </div>
-
-
-      <div class="pc">
-        <div class="pc-head">
-          <div class="pc-ico">🎥</div>
-          <span class="pc-type">Video Pipeline</span>
-        </div>
-        <div class="pc-name">Pipeline Xử lý &amp; Phân phối Video Đa Kênh</div>
+        <div class="pc-name">Hệ thống Sản xuất &amp; Phân phối Video AI Đa Kênh</div>
         <div class="pc-metrics">
           <span class="pm pm-green">27M view/tháng</span>
-          <span class="pm">+66% tăng trưởng MoM</span>
+          <span class="pm">~200 video/ngày · ↓ 99% thời gian</span>
         </div>
         <div class="pc-result-bar">
           <div class="pr-item"><span class="pr-num">27M</span><span class="pr-label">lượt xem tháng 1/2026</span></div>
-          <div class="pr-item"><span class="pr-num">5.6M</span><span class="pr-label">xem trên 1 phút</span></div>
-          <div class="pr-item"><span class="pr-num">+109%</span><span class="pr-label">thời gian xem</span></div>
+          <div class="pr-item"><span class="pr-num">+66%</span><span class="pr-label">tăng trưởng MoM</span></div>
+          <div class="pr-item"><span class="pr-num">16K</span><span class="pr-label">follower kênh mới (2 tháng)</span></div>
         </div>
         <div class="pc-desc">
-          Tải video từ Google Drive, nhúng phụ đề AI dịch tự động bằng FFMPEG, phân phối đồng thời lên nhiều tài khoản. Tháng 1/2026 đạt 27 triệu lượt xem với mức tăng trưởng 66% so với tháng trước.
+          Thay toàn bộ khâu làm video thủ công bằng pipeline AI chạy 24/7: AI viết kịch bản, sinh hình, lồng tiếng, dịch &amp; nhúng phụ đề, rồi đăng đồng thời lên nhiều kênh theo lịch. Hiệu suất được cào và phân tích tự động, báo cáo gửi quản lý mỗi sáng để biết nội dung nào nên scale.
         </div>
         <div class="pc-stack">
-          <span class="st">n8n</span><span class="st">FFMPEG</span><span class="st">Google Drive</span><span class="st">Gemini AI</span><span class="st">TikTok API</span>
+          <span class="st">n8n</span><span class="st">Gemini AI</span><span class="st">FFMPEG</span><span class="st">Vbee TTS</span><span class="st">TikTok API</span><span class="st">Lark</span>
+        </div>
+      </div>
+
+      <div class="pc">
+        <div class="pc-head">
+          <div class="pc-ico">⚡</div>
+          <span class="pc-type">SaaS Platform</span>
+        </div>
+        <div class="pc-name">SaaS Xử lý Video Đa người dùng</div>
+        <div class="pc-metrics">
+          <span class="pm pm-green">~15 triệu VNĐ/tháng MRR</span>
+          <span class="pm">60+ tác vụ đồng thời</span>
+        </div>
+        <div class="pc-desc">
+          Nền tảng SaaS hoàn chỉnh: xác thực người dùng (Supabase), hàng đợi Redis quản lý 60+ tác vụ FFMPEG đồng thời trên VPS, lưu trữ Cloudflare R2, tích hợp Whisper + Gemini + Vbee.
+        </div>
+        <div class="pc-stack">
+          <span class="st">n8n</span><span class="st">Supabase</span><span class="st">FFMPEG</span><span class="st">Redis</span><span class="st">Cloudflare R2</span><span class="st">Whisper</span>
         </div>
       </div>
 
@@ -974,24 +968,6 @@
 
       <div class="pc">
         <div class="pc-head">
-          <div class="pc-ico">📊</div>
-          <span class="pc-type">TMĐT Analytics</span>
-        </div>
-        <div class="pc-name">Hệ thống Báo cáo TikTok Data Tự động</div>
-        <div class="pc-metrics">
-          <span class="pm">Báo cáo tự động mỗi sáng</span>
-          <span class="pm pm-green">0% thủ công</span>
-        </div>
-        <div class="pc-desc">
-          Cào dữ liệu hiệu suất TikTok, tự động phân tích và tổng hợp báo cáo kết quả gửi về Lark cho quản lý mỗi buổi sáng — không cần nhân sự xử lý thủ công.
-        </div>
-        <div class="pc-stack">
-          <span class="st">n8n</span><span class="st">TikTok API</span><span class="st">Lark</span><span class="st">Gemini AI</span><span class="st">Auto Report</span>
-        </div>
-      </div>
-
-      <div class="pc">
-        <div class="pc-head">
           <div class="pc-ico">🎓</div>
           <span class="pc-type">Đào tạo</span>
         </div>
@@ -1001,24 +977,6 @@
         </div>
         <div class="pc-stack">
           <span class="st">n8n</span><span class="st">Gemini AI</span><span class="st">Curriculum Design</span><span class="st">Hands-on Lab</span>
-        </div>
-      </div>
-
-      <div class="pc">
-        <div class="pc-head">
-          <div class="pc-ico">⚡</div>
-          <span class="pc-type">SaaS Platform</span>
-        </div>
-        <div class="pc-name">SaaS Xử lý Video Đa người dùng</div>
-        <div class="pc-metrics">
-          <span class="pm pm-green">~15 triệu VNĐ/tháng MRR</span>
-          <span class="pm">60+ tác vụ đồng thời</span>
-        </div>
-        <div class="pc-desc">
-          Nền tảng SaaS hoàn chỉnh: xác thực người dùng (Supabase), hàng đợi Redis quản lý 60+ tác vụ FFMPEG đồng thời trên VPS, lưu trữ Cloudflare R2, tích hợp Whisper + Gemini + Vbee.
-        </div>
-        <div class="pc-stack">
-          <span class="st">n8n</span><span class="st">Supabase</span><span class="st">FFMPEG</span><span class="st">Redis</span><span class="st">Cloudflare R2</span><span class="st">Whisper</span>
         </div>
       </div>
 
